@@ -53,7 +53,8 @@ project "LiteStats"
 
         defines
         {
-            "LS_PLATFORM_LINUX"
+            "LS_PLATFORM_LINUX",
+            "LS_BUILD_SO"
         }
 
     filter "configurations:Debug"

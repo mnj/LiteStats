@@ -6,8 +6,8 @@
     #else
         #define LS_API __declspec(dllimport)
     #endif
-#elif defined(__GNUC__)
-    #ifdef LS_BUILD_DLL
+#elif defined(LS_PLATFORM_LINUX) && defined(__GNUC__)
+    #ifdef LS_BUILD_SO
         #define LS_API __attribute__((visibility("default")))
     #else
         #define LS_API
