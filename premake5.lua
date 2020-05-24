@@ -46,7 +46,7 @@ project "LiteStats"
 
         postbuildcommands
         {
-            ("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/LiteStats-Svc" )
+            ("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/LiteStats.Svc" )
         }
 
     filter "configurations:Debug"

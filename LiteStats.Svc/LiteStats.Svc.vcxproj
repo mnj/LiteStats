@@ -131,6 +131,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\LiteStatsSvc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\LiteStats\LiteStats.vcxproj">
       <Project>{02302A41-6E9A-DEB7-B7D8-8F5D2382BC0C}</Project>
     </ProjectReference>
