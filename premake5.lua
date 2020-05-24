@@ -1,5 +1,5 @@
 workspace "LiteStats"
-    architecture "x64"
+    architecture "x86_64"
 
     configurations
     {
@@ -61,8 +61,8 @@ project "LiteStats"
         defines "LS_DIST"
         optimize "On"
 
-project "LiteStats.Svc"
-    location "LiteStats.Svc"
+project "LiteStatsSvc"
+    location "LiteStatsSvc"
     kind "ConsoleApp"
 
     language "C++"
