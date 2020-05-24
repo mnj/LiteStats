@@ -16,6 +16,8 @@ namespace LiteStats {
 
     void Application::Run()
     {
+        std::cout << "LiteStats started!" << std::endl;
+
         while(true);
     }
 }
