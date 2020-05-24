@@ -1,6 +1,6 @@
 #pragma once
 
-#ifdef LS_PLATFORM_WINDOWS
+#if defined(LS_PLATFORM_WINDOWS) || defined(LS_PLATFORM_LINUX)
 
 extern LiteStats::Application* LiteStats::CreateApplication();
 
@@ -10,5 +10,4 @@ int main(int argc, char** argv)
     app->Run();
     delete app;
 }
-
 #endif

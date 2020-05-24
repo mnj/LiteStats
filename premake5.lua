@@ -49,6 +49,13 @@ project "LiteStats"
             ("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/LiteStatsSvc" )
         }
 
+    filter "system:linux"
+
+        defines
+        {
+            "LS_PLATFORM_LINUX"
+        }
+
     filter "configurations:Debug"
         defines "LS_DEBUG"
         symbols "On"
@@ -95,6 +102,13 @@ project "LiteStatsSvc"
         defines
         {
             "LS_PLATFORM_WINDOWS"
+        }
+
+    filter "system:linux"
+
+        defines
+        {
+            "LS_PLATFORM_LINUX"
         }
 
     filter "configurations:Debug"
