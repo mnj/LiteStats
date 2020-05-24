@@ -18,6 +18,9 @@ project "LiteStats"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-obj/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "lspch.h"
+    pchsource "LiteStats/src/lspch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",
