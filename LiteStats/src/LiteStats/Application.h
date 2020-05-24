@@ -3,7 +3,7 @@
 #include "Core.h"
 
 namespace LiteStats {
-    class LiteStats LS_API Application
+    class LS_API Application
     {
         public:
             Application();

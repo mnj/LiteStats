@@ -396,3 +396,9 @@ healthchecksdb
 MigrationBackup/
 
 # End of https://www.gitignore.io/api/c++,visualstudio,visualstudiocode
+
+
+
+# Add out output dirs
+bin/*
+bin-obj/*

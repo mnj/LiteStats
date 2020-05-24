@@ -29,6 +29,7 @@ project "LiteStats"
 
     includedirs
     {
+        "%{prj.name}/src",
         "%{prj.name}/3rdparty/spdlog/include"
     }
 
