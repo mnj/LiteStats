@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LiteStats">
+      <UniqueIdentifier>{02302A41-6E9A-DEB7-B7D8-8F5D2382BC0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\LiteStats.h" />
+    <ClInclude Include="src\LiteStats\Application.h">
+      <Filter>LiteStats</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LiteStats\Core.h">
+      <Filter>LiteStats</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LiteStats\EntryPoint.h">
+      <Filter>LiteStats</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lspch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\LiteStats\Application.cpp">
+      <Filter>LiteStats</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lspch.cpp" />
+  </ItemGroup>
+</Project>
