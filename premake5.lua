@@ -49,6 +49,11 @@ project "LiteStats"
             ("{COPY} %{cfg.buildtarget.relpath} ../bin/" .. outputdir .. "/LiteStatsSvc" )
         }
 
+        flags
+        {
+            "MultiProcessorCompile"
+        }
+
     filter "system:linux"
 
         defines
@@ -103,6 +108,11 @@ project "LiteStatsSvc"
         defines
         {
             "LS_PLATFORM_WINDOWS"
+        }
+
+        flags
+        {
+            "MultiProcessorCompile"
         }
 
     filter "system:linux"
