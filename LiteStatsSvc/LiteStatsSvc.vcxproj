@@ -15,10 +15,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1C0B012B-88CB-7C61-5106-C6DEBD85C13D}</ProjectGuid>
+    <ProjectGuid>{6EB93EC3-5A1C-CE67-03A2-061EEFE399EA}</ProjectGuid>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>LiteStats.Svc</RootNamespace>
+    <RootNamespace>LiteStatsSvc</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -55,23 +55,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\Debug-windows-x86_64\LiteStats.Svc\</OutDir>
-    <IntDir>..\bin-obj\Debug-windows-x86_64\LiteStats.Svc\</IntDir>
-    <TargetName>LiteStats.Svc</TargetName>
+    <OutDir>..\bin\Debug-windows-x86_64\LiteStatsSvc\</OutDir>
+    <IntDir>..\bin-obj\Debug-windows-x86_64\LiteStatsSvc\</IntDir>
+    <TargetName>LiteStatsSvc</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\bin\Release-windows-x86_64\LiteStats.Svc\</OutDir>
-    <IntDir>..\bin-obj\Release-windows-x86_64\LiteStats.Svc\</IntDir>
-    <TargetName>LiteStats.Svc</TargetName>
+    <OutDir>..\bin\Release-windows-x86_64\LiteStatsSvc\</OutDir>
+    <IntDir>..\bin-obj\Release-windows-x86_64\LiteStatsSvc\</IntDir>
+    <TargetName>LiteStatsSvc</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\bin\Dist-windows-x86_64\LiteStats.Svc\</OutDir>
-    <IntDir>..\bin-obj\Dist-windows-x86_64\LiteStats.Svc\</IntDir>
-    <TargetName>LiteStats.Svc</TargetName>
+    <OutDir>..\bin\Dist-windows-x86_64\LiteStatsSvc\</OutDir>
+    <IntDir>..\bin-obj\Dist-windows-x86_64\LiteStatsSvc\</IntDir>
+    <TargetName>LiteStatsSvc</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
