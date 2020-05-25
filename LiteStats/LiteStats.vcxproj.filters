@@ -16,10 +16,16 @@
     <ClInclude Include="src\LiteStats\EntryPoint.h">
       <Filter>LiteStats</Filter>
     </ClInclude>
+    <ClInclude Include="src\LiteStats\Log.h">
+      <Filter>LiteStats</Filter>
+    </ClInclude>
     <ClInclude Include="src\lspch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\LiteStats\Application.cpp">
+      <Filter>LiteStats</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LiteStats\Log.cpp">
       <Filter>LiteStats</Filter>
     </ClCompile>
     <ClCompile Include="src\lspch.cpp" />

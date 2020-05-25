@@ -30,7 +30,7 @@ project "LiteStats"
     includedirs
     {
         "%{prj.name}/src",
-        "%{prj.name}/3rdparty/spdlog/include"
+        "3rdparty/spdlog/include"
     }
 
     filter "system:windows"
@@ -91,7 +91,7 @@ project "LiteStatsSvc"
 
     includedirs
     {
-        "%{prj.name}/3rdparty/spdlog/include",
+        "3rdparty/spdlog/include",
         "LiteStats/src"
     }
 

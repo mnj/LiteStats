@@ -2,6 +2,8 @@
 
 #include "Application.h"
 
+#include "LiteStats/Log.h"
+
 namespace LiteStats {
 
     Application::Application()
@@ -16,8 +18,11 @@ namespace LiteStats {
 
     void Application::Run()
     {
-        std::cout << "LiteStats started!" << std::endl;
+        using namespace std::chrono_literals;
 
-        while(true);
+        while (true)
+        {
+            std::this_thread::sleep_for(250ms);
+        }
     }
 }
