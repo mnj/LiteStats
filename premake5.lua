@@ -30,7 +30,8 @@ project "LiteStats"
     includedirs
     {
         "%{prj.name}/src",
-        "3rdparty/spdlog/include"
+        "3rdparty/spdlog/include",
+        "3rdparty/asio/asio/include"
     }
 
     filter "system:windows"
@@ -55,6 +56,11 @@ project "LiteStats"
         }
 
     filter "system:linux"
+
+        links
+        {
+            "pthread"
+        }
 
         defines
         {
